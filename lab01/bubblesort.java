@@ -1,4 +1,4 @@
-package com.lab01;
+package lab01;
 
 public class bubblesort {
     void bubbleSort(int arr[]) {
