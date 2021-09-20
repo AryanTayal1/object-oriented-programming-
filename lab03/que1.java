@@ -17,11 +17,12 @@ class class_room extends que1 { int h;
         return(area()*h);
     }
 }
-public class main {
+public class Main {
     public static void main(String[] args) {
         class_room cr=new class_room(5,6,7);
         int a1=cr.area();
-        int v1=cr.volume(); System.out.println("Area of Room : "+a1);
+        int v1=cr.volume();
+        System.out.println("Area of Room : "+a1);
         System.out.println("Volume of Room : "+v1);
     }
 }
